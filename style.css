@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid red; */
+}
+
+.wrapper {
+    width: 750px;
+    margin: 0px auto;
+}
+
+.header-1 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.header-2 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBox {
+    height: 300px;
+    width: 200px;
+    border: 4px solid black;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: block;
+    text-align: center;
+}
+
+#userCircle {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+#addLink {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.userBox {
+    width: 400px;
+    border: 4px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.row-1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.likeBtn {
+    margin-left: 40px;
+    background-color: rgb(231, 228, 38);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
